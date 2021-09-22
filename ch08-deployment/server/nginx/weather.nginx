@@ -1,7 +1,7 @@
 server {
     listen 80;
     server_name ivan.balap.com 192.168.6.226;
-    server_token off;
+    server_tokens off;
     charset utf-8;
 
     location /static {
