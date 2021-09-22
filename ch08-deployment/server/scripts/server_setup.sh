@@ -54,7 +54,7 @@ apt install nginx
 
 rm /ect/nginx/sites-enabled/default
 
-cp /apps/app_repo/ch08-deployment/server/nginx/weather.nginx /etc/nginx/sites/enabled/
+cp /apps/app_repo/ch08-deployment/server/nginx/weather.nginx /etc/nginx/sites-enabled/
 update-rc.d nginx enable
 service nginx restart
 
